@@ -3,6 +3,7 @@ Estimador local do método de marshall
 
 library(readr)
 dados <- read.table('banco.csv',header=TRUE, sep=';',dec=",")
+
 r_local <- c()
 n_local <- c()
 m_local <- c()
